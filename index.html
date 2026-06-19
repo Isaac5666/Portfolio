@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Isaac Xavier — Portfolio</title>
+<link rel="icon" type="image/png" href="https://i.postimg.cc/Y9sgyyjL/xf.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@300;400;500;700;800&family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
@@ -222,21 +223,16 @@ body.hovering #crsr-ring{width:64px;height:64px;opacity:0.15}
 }
 /* large ghost number in bg */
 .hero-ghost{
-    position:absolute;right:4vw;top:50%;
-    transform:translateY(50%);
-    font-family:'Clash Display',sans-serif;font-weight:700;
-    font-size:clamp(18rem,40vw,52rem);
-    line-height:1;letter-spacing:-0.06em;
+    position:absolute;right:5vw;top:50%;
     color:var(--ink);opacity:100;
     pointer-events:none;user-select:none;
     white-space:nowrap;
     width:420px;
-    height:520px;
     flex-shrink:0;
     border-radius:32px;
     overflow:hidden;
     border:1px solid var(--line);
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     background:var(--card);
 }
 
@@ -678,7 +674,7 @@ footer{
   .svc:nth-last-child(-n+2){border-bottom:1px solid var(--line)}
   .svc:last-child{border-bottom:none}
   .hero-scroll-hint{display:none}
-  .hero-ghost{opacity: 80%;position: absolute;right:0vw;top:50%;}
+  .hero-ghost{position: absolute;right:0vw;top:50%;}
 }
 @media(max-width:480px){
   .stats-row{grid-template-columns:1fr}
