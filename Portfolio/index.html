@@ -405,13 +405,13 @@ body.hovering #crsr-ring{width:64px;height:64px;opacity:0.15}
 .proj-bg-glyph{
   font-family:'Clash Display',sans-serif;font-weight:700;
   font-size:clamp(5rem,14vw,17rem);
-  color:var(--ink);opacity:0.04;
+  /* color:var(--ink);opacity:0.04; */
   letter-spacing:-0.05em;user-select:none;
   white-space:nowrap;line-height:1;
-  transition:transform .8s var(--ease),opacity .4s;
+  transition:transform .8s var(--ease),opacity 100%;
   will-change:transform;
 }
-.proj:hover .proj-bg-glyph{transform:scale(1.06);opacity:100%;background-color: white;}
+.proj:hover .proj-bg-glyph{transform:scale(1.07);opacity:100%;background-color: white;}
 /* [data-theme="light"] .proj-bg-glyph{opacity:0.06}
 [data-theme="light"] .proj:hover .proj-bg-glyph{opacity:0.1} */
 
